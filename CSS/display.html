@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        span{
+            height: 200px;
+            width: 400px;
+            margin: 40px;
+            padding: 40px;
+            border: 2px solid black;
+        }
+        #div{
+            height: 200px;
+            width: 400px;
+            margin: 40px;
+            padding: 40px;
+            border: 2px solid black;
+        }
+        .blockcontainer div{
+            display: block;
+            height: 50px;
+            width: 50px;
+            background-color: green;
+            padding: 20px;
+            margin: 20px;
+            border: 2px solid black;
+        }
+        .inlinecontainer div{
+            display: inline;
+            height: 50px;
+            width: 50px;
+            background-color: green;
+            padding: 20px;
+            margin: 20px;
+            border: 2px solid black;
+        }
+        .inlineblockcontainer div{
+            display: inline-block;
+            height: 50px;
+            width: 50px;
+            background-color: green;
+            padding: 20px;
+            margin: 20px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quis facilis aliquam necessitatibus dolorum provident a consequatur itaque porro corporis est atque alias, minus commodi iure modi maiores praesentium totam!
+    Lorem ipsum dolor sit amet <span>Inline</span> consectetur adipisicing elit. Fugit quis facilis aliquam necessitatibus dolorum provident a consequatur itaque porro corporis est atque alias, minus commodi iure modi maiores praesentium totam!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quis facilis aliquam necessitatibus dolorum provident a consequatur itaque porro corporis est atque alias, minus commodi iure modi maiores praesentium totam!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quis facilis aliquam necessitatibus dolorum provident a consequatur itaque porro corporis est atque alias, minus commodi iure modi maiores praesentium totam!
+    Lorem ipsum dolor sit amet consectetur <div id="div">Block</div> adipisicing elit. Fugit quis facilis aliquam necessitatibus dolorum provident a consequatur itaque porro corporis est atque alias, minus commodi iure modi maiores praesentium totam!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quis facilis aliquam necessitatibus dolorum provident a consequatur itaque porro corporis est atque alias, minus commodi iure modi maiores praesentium totam!
+    <hr>
+    <div class="blockcontainer">
+        <!-- diplay block -->
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <hr>
+    <div class="inlinecontainer">
+        <!-- diplay block -->
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <hr>
+    <div class="inlineblockcontainer">
+        <!-- diplay block -->
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+
+</body>
+</html>
