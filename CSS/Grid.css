@@ -1,0 +1,40 @@
+.container{
+    width: 600px;
+    height: 500px;
+    border: 2px solid black;
+    display: grid;
+    /* grid-template-rows: 100px 100px 100px; */
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 200px 200px 200px;
+    grid-gap: 10px;
+    place-items: center;
+}
+.in{
+    width: 150px;
+    height: 50px;
+    border: solid 1px black;
+    
+}
+#v{
+    background-color: violet;
+    grid-row: 1/2;
+}
+#i{
+    background-color: indigo;
+    grid-row: 2/3;
+}
+#b{
+    background-color: blue;
+}
+#g{
+    background-color: green;
+}
+#y{
+    background-color: yellow;
+}
+#o{
+    background-color: orange;
+}
+#r{
+    background-color: red;
+}
